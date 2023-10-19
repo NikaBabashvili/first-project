@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #full-content {
+    position: relative;
+    width: 1440px;
+    height: 720px;
+  }
+  
+  #web-name {
+    position: absolute;
+    top: 25px;
+    left: 45px;
+    font-size: 40px;
+    font-family: epilogue;
+    font-weight: 700;
+  }
+  
+  #top-content1 {
+    position: absolute;
+    top: 37px;
+    left: 200px;
+    font-size: large;
+    font-family: epilogue;
+    cursor: pointer;
+    border-bottom: 3px solid white;
+    
+  }
+  
+  #top-content2 {
+    position: absolute;
+    top: 37px;
+    left: 320px;
+    font-size: large;
+    font-family: epilogue;
+    cursor: pointer;
+    border-bottom: 3px solid white;
+  }
+  
+  #top-content3 {
+    color: rgb(148, 142, 142);
+    position: absolute;
+    top: 37px;
+    left: 440px;
+    font-size: large;
+    font-family: epilogue;
+    cursor: pointer;
+  }
+  
+  #top-content4 {
+    position: absolute;
+    top: 37px;
+    left: 540px;
+    font-size: large;
+    font-family: epilogue;
+    cursor: pointer;
+    border-bottom: 3px solid white;
+  }
+
+
+  #login-bar {
+    position: absolute;
+    font-size: 18px;
+    top: 27px;
+    left: 1260px;
+    font-family: epilogue;
+    padding: 10px;
+    cursor: pointer;
+   
+  }
+  
+  #register-bar {
+    position: absolute;
+    font-size: 18px;
+    top: 27px;
+    left: 1340px;
+    font-family: epilogue;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #list1 {
+    cursor: pointer;
+    position: absolute;
+    width: 170px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    top: 70px;
+    left: 120px;
+    border-radius: 12px;
+    font-family: epilogue;
+    font-size: large;
+  }
+  
+  #list2 {
+    cursor: pointer;
+    position: absolute;
+    width: 120px;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    top: 70px;
+    left: 320px;
+    border-radius: 12px;
+    font-family: epilogue;
+    font-size: large;
+  }
+  
+
+  #list-position1 {
+    position: absolute;
+    left: 20px;
+    top: 17px;
+  }
+  
+  #list-position2 {
+    position: absolute;
+    left: 20px;
+    top: 17px;
+    width: 100px;
+  }
+  
+  #list-position3{
+    width: 200px;
+    font-size: 23px;
+   }
+  
+  #top-content1:hover #list1 {
+    background-color: red;
+  }
+  
+  #p1:hover {
+    background-color: rgb(213, 213, 213);
+  }
+  
+  #p2:hover {
+    background-color: rgb(213, 213, 213);
+  }
+  
+  #p3:hover {
+    background-color: rgb(213, 213, 213);
+  }
+  
+  #p4:hover {
+    background-color: rgb(213, 213, 213);
+  }
+  
+  #p5 {
+    position: absolute;
+  }
+  
+  #p6 {
+    position: absolute;
+    top: 35px;
+  }
+  
+  #p7 {
+    position: absolute;
+    top: 70px;
+  }
+  
+  #p5:hover {
+    background-color: rgb(213, 213, 213);
+  }
+  
+  #p6:hover {
+    background-color: rgb(213, 213, 213);
+  }
+  
+  #p7:hover {
+    background-color: rgb(213, 213, 213);
+  }
+  
+  #top-content1:hover {
+    border-bottom: 3px solid red;
+    transition: 0.5s;
+  }
+  
+  #top-content2:hover {
+    border-bottom: 3px solid red;
+    transition: 0.5s;
+  }
+  
+  #top-content4:hover {
+    border-bottom: 3px solid red;
+    transition: 0.5s;
+  }
+
+#openmenu{
+  visibility: hidden;
+  display: none;
+  position: absolute;
+}
+
+
+
+
+#title {
+    position: absolute;
+    font-size: 80px;
+    top: 230px;
+    font-family:epilogue;
+    font-weight: 700;
+    left: 180px;
+}
+#photo1{
+    position: absolute;
+    width: 400px;
+    top: 150px;
+    left: 900px;
+}
+
+#text{
+    position: absolute;
+    font-size: 18px;
+    color:rgb(123, 119, 119) ;
+    top: 430px;
+    left: 180px;
+    font-family: epilogue;
+}
+
+#learn-more{
+    position: absolute;
+    font-size: 18px;
+    top: 530px;
+    left: 180px;
+    font-family: epilogue;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+#bottom-photos{
+    position: relative;
+    width: 500px;
+    height: 55px;
+    top: 640px;
+    left: 180px;
+}
+
+#logo1{
+    position: absolute;
+    top: 15px;
+}
+#logo2{
+    position: absolute;
+    top: 5px;
+    left:70px;
+}
+
+#logo3{
+    position: absolute;
+    top: 16px;
+    left:250px;
+}
+#logo4{
+    position: absolute;
+    top: 16px;
+    left:380px;
+}
+
+
